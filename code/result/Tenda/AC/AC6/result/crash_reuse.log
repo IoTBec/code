@@ -1,0 +1,352 @@
+2025-06-24 21:48:01,778 - INFO - \u2705 Merged database saved to C:\Users\25281\Downloads\IoTBec\code\result\database.json
+2025-06-24 21:48:01,818 - INFO - {
+  "summary": {
+    "baseline": {
+      "unique_cve_count": 31,
+      "total_db_cve_count": 41,
+      "reused_proportion": 75.60975609756098,
+      "matched_targets": 20,
+      "total_hits": 35
+    },
+    "no_URI": {
+      "unique_cve_count": 31,
+      "total_db_cve_count": 41,
+      "reused_proportion": 75.60975609756098,
+      "matched_targets": 20,
+      "total_hits": 38
+    },
+    "no_form": {
+      "unique_cve_count": 31,
+      "total_db_cve_count": 41,
+      "reused_proportion": 75.60975609756098,
+      "matched_targets": 23,
+      "total_hits": 36
+    },
+    "no_button_navigation": {
+      "unique_cve_count": 31,
+      "total_db_cve_count": 41,
+      "reused_proportion": 75.60975609756098,
+      "matched_targets": 20,
+      "total_hits": 41
+    }
+  },
+  "detailed_matches": {
+    "baseline": {
+      "/goform/WanParameterSetting": [],
+      "/goform/WifiBasicSet": [
+        {
+          "CVE ID": "CVE-2023-24166",
+          "URI": "/goform/WifiBasicSet"
+        }
+      ],
+      "/goform/openSchedWifi": [
+        {
+          "CVE ID": "CVE-2024-2490",
+          "URI": "/goform/openSchedWifi"
+        },
+        {
+          "CVE ID": "CVE-2022-40865",
+          "URI": "/goform/openSchedWifi"
+        }
+      ],
+      "/goform/WifiExtraSet": [
+        {
+          "CVE ID": "CVE-2024-2546",
+          "URI": "/goform/WifiExtraSet"
+        },
+        {
+          "CVE ID": "CVE-2022-30475",
+          "URI": "/goform/WifiExtraSet"
+        }
+      ],
+      "/goform/WifiRadioSet": [],
+      "/goform/WifiPowerSet": [],
+      "/goform/WifiWpsSet": [],
+      "/goform/WifiBeamformingSet": [],
+      "/goform/setApModeCfg": [],
+      "/goform/WifiGuestSet": [],
+      "/goform/SetOnlineDevName": [
+        {
+          "CVE ID": "CVE-2024-2487",
+          "URI": "/goform/SetOnlineDevName"
+        }
+      ],
+      "/goform/saveParentControlInfo": [
+        {
+          "CVE ID": "CVE-2024-33180",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-38314",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-38313",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-30474",
+          "URI": "/goform/saveParentControlInfo"
+        }
+      ],
+      "/goform/SetPptpServerCfg": [
+        {
+          "CVE ID": "CVE-2024-57582",
+          "URI": "/goform/SetPptpServerCfg"
+        },
+        {
+          "CVE ID": "CVE-2024-34974",
+          "URI": "/goform/SetPptpServerCfg"
+        },
+        {
+          "CVE ID": "CVE-2024-2488",
+          "URI": "/goform/SetPptpServerCfg"
+        }
+      ],
+      "/goform/setPptpUserList": [
+        {
+          "CVE ID": "CVE-2025-5607",
+          "URI": "/goform/setPptpUserList"
+        }
+      ],
+      "/goform/SetPptpClientCfg": [],
+      "/goform/SetNetControlList": [
+        {
+          "CVE ID": "CVE-2024-2489",
+          "URI": "/goform/SetNetControlList"
+        },
+        {
+          "CVE ID": "CVE-2022-40861",
+          "URI": "/goform/SetNetControlList"
+        }
+      ],
+      "/goform/cloudv2": [],
+      "/goform/PowerSaveSet": [
+        {
+          "CVE ID": "CVE-2022-40864",
+          "URI": "/goform/PowerSaveSet"
+        },
+        {
+          "CVE ID": "CVE-2022-38311",
+          "URI": "/goform/PowerSaveSet"
+        }
+      ],
+      "/goform/SetLEDCfg": [],
+      "/goform/setMacFilterCfg": [],
+      "/goform/SetFirewallCfg": [
+        {
+          "CVE ID": "CVE-2024-57581",
+          "URI": "/goform/SetFirewallCfg"
+        },
+        {
+          "CVE ID": "CVE-2024-28547",
+          "URI": "/goform/SetFirewallCfg"
+        },
+        {
+          "CVE ID": "CVE-2022-30476",
+          "URI": "/goform/SetFirewallCfg"
+        }
+      ],
+      "/goform/SetIPTVCfg": [
+        {
+          "CVE ID": "CVE-2025-5606",
+          "URI": "/goform/SetIPTVCfg"
+        }
+      ],
+      "/goform/SetStaticRouteCfg": [
+        {
+          "CVE ID": "CVE-2022-38310",
+          "URI": "/goform/SetStaticRouteCfg"
+        },
+        {
+          "CVE ID": "CVE-2022-38309",
+          "URI": "/goform/SetVirtualServerCfg"
+        }
+      ],
+      "/goform/SetDDNSCfg": [],
+      "/goform/SetVirtualServerCfg": [
+        {
+          "CVE ID": "CVE-2022-38310",
+          "URI": "/goform/SetStaticRouteCfg"
+        },
+        {
+          "CVE ID": "CVE-2022-38309",
+          "URI": "/goform/SetVirtualServerCfg"
+        }
+      ],
+      "/goform/SetDMZCfg": [],
+      "/goform/SetUpnpCfg": [],
+      "/goform/AdvSetLanip": [
+        {
+          "CVE ID": "CVE-2025-5609",
+          "URI": "/goform/AdvSetLanip"
+        }
+      ],
+      "/goform/SetIpMacBind": [
+        {
+          "CVE ID": "CVE-2022-38312",
+          "URI": "/goform/SetIpMacBind"
+        }
+      ],
+      "/goform/AdvSetMacMtuWan": [],
+      "/goform/SetSysTimeCfg": [
+        {
+          "CVE ID": "CVE-2022-43260",
+          "URI": "/goform/SetSysTimeCfg"
+        }
+      ],
+      "/goform/SysToolChangePwd": [],
+      "/goform/SysToolRestoreSet": [
+        {
+          "CVE ID": "CVE-2024-2559",
+          "URI": "/goform/SysToolReboot"
+        },
+        {
+          "CVE ID": "CVE-2024-2560",
+          "URI": "/goform/SysToolRestoreSet"
+        }
+      ],
+      "/goform/SysToolReboot": [
+        {
+          "CVE ID": "CVE-2024-2559",
+          "URI": "/goform/SysToolReboot"
+        },
+        {
+          "CVE ID": "CVE-2024-2560",
+          "URI": "/goform/SysToolRestoreSet"
+        }
+      ],
+      "/cgi-bin/DownloadCfg/RouterCfm.cfg": [],
+      "/cgi-bin/UploadCfg": [],
+      "/goform/SetRemoteWebCfg": [
+        {
+          "CVE ID": "CVE-2024-33835",
+          "URI": "/goform/SetRemoteWebCfg"
+        }
+      ],
+      "/cgi-bin/DownloadLog/syslog.tar": [],
+      "/goform/SetSysAutoRebbotCfg": [
+        {
+          "CVE ID": "CVE-2025-5608",
+          "URI": "/goform/SetSysAutoRebbotCfg"
+        }
+      ]
+    },
+    "no_URI": [
+      {
+        "URI": "/goform/SetNetControlList",
+        "新增": [
+          {
+            "CVE ID": "CVE-2022-38310",
+            "URI": "/goform/SetStaticRouteCfg"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetStaticRouteCfg",
+        "新增": [
+          {
+            "CVE ID": "CVE-2024-2489",
+            "URI": "/goform/SetNetControlList"
+          },
+          {
+            "CVE ID": "CVE-2022-40861",
+            "URI": "/goform/SetNetControlList"
+          }
+        ]
+      }
+    ],
+    "no_form": [
+      {
+        "URI": "/goform/SetStaticRouteCfg",
+        "删除": [
+          {
+            "CVE ID": "CVE-2022-38309",
+            "URI": "/goform/SetVirtualServerCfg"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetVirtualServerCfg",
+        "删除": [
+          {
+            "CVE ID": "CVE-2022-38310",
+            "URI": "/goform/SetStaticRouteCfg"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetDMZCfg",
+        "新增": [
+          {
+            "CVE ID": "CVE-2025-5606",
+            "URI": "/goform/SetIPTVCfg"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetUpnpCfg",
+        "新增": [
+          {
+            "CVE ID": "CVE-2025-5606",
+            "URI": "/goform/SetIPTVCfg"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/AdvSetMacMtuWan",
+        "新增": [
+          {
+            "CVE ID": "CVE-2025-5609",
+            "URI": "/goform/AdvSetLanip"
+          }
+        ]
+      }
+    ],
+    "no_button_navigation": [
+      {
+        "URI": "/goform/setPptpUserList",
+        "新增": [
+          {
+            "CVE ID": "CVE-2024-2489",
+            "URI": "/goform/SetNetControlList"
+          },
+          {
+            "CVE ID": "CVE-2022-40861",
+            "URI": "/goform/SetNetControlList"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetNetControlList",
+        "新增": [
+          {
+            "CVE ID": "CVE-2022-38310",
+            "URI": "/goform/SetStaticRouteCfg"
+          },
+          {
+            "CVE ID": "CVE-2025-5607",
+            "URI": "/goform/setPptpUserList"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetStaticRouteCfg",
+        "新增": [
+          {
+            "CVE ID": "CVE-2024-2489",
+            "URI": "/goform/SetNetControlList"
+          },
+          {
+            "CVE ID": "CVE-2022-40861",
+            "URI": "/goform/SetNetControlList"
+          }
+        ]
+      }
+    ]
+  }
+}
+2025-06-24 21:48:01,830 - INFO - \u2705 Saved baseline results to Tenda\AC\AC6\result\AC6.json
+2025-06-24 21:48:01,841 - INFO - \u2705 Saved no_URI results to Tenda\AC\AC6\result\AC6_no_URI.json
+2025-06-24 21:48:01,853 - INFO - \u2705 Saved no_form results to Tenda\AC\AC6\result\AC6_no_form.json
+2025-06-24 21:48:01,865 - INFO - \u2705 Saved no_button_navigation results to Tenda\AC\AC6\result\AC6_no_button_navigation.json
