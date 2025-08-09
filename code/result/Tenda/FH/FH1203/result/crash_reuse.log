@@ -1,0 +1,152 @@
+2025-07-06 01:16:15,326 - INFO - \u2705 Merged database saved to C:\Users\25281\Downloads\IoTBec\code\result\database.json
+2025-07-06 01:16:15,343 - INFO - {
+  "summary": {
+    "baseline": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 4,
+      "total_hits": 8
+    },
+    "no_URI": {
+      "unique_cve_count": 7,
+      "total_db_cve_count": 39,
+      "reused_proportion": 17.94871794871795,
+      "matched_targets": 3,
+      "total_hits": 7
+    },
+    "no_form": {
+      "unique_cve_count": 12,
+      "total_db_cve_count": 39,
+      "reused_proportion": 30.76923076923077,
+      "matched_targets": 7,
+      "total_hits": 14
+    },
+    "no_button_navigation": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 4,
+      "total_hits": 8
+    }
+  },
+  "detailed_matches": {
+    "baseline": {
+      "/goform/WanParameterSetting": [],
+      "/goform/WifiBasicSet": [
+        {
+          "CVE ID": "CVE-2023-24166",
+          "URI": "/goform/WifiBasicSet"
+        }
+      ],
+      "/goform/AdvSetMacMtuWan": [],
+      "/goform/DhcpSetSer": [],
+      "/goform/AdvSetLanip": [],
+      "/goform/WifiExtraSet": [],
+      "/goform/WifiPowerSet": [],
+      "/goform/openSchedWifi": [
+        {
+          "CVE ID": "CVE-2024-2490",
+          "URI": "/goform/openSchedWifi"
+        },
+        {
+          "CVE ID": "CVE-2022-40865",
+          "URI": "/goform/openSchedWifi"
+        }
+      ],
+      "/goform/WifiRadioSet": [],
+      "/goform/openDnsCheck": [],
+      "/goform/cloud": [],
+      "/goform/SetDMZCfg": [],
+      "/goform/SetOnlineDevName": [
+        {
+          "CVE ID": "CVE-2024-2487",
+          "URI": "/goform/SetOnlineDevName"
+        }
+      ],
+      "/goform/saveParentControlInfo": [
+        {
+          "CVE ID": "CVE-2024-33180",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-38314",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-38313",
+          "URI": "/goform/saveParentControlInfo"
+        },
+        {
+          "CVE ID": "CVE-2022-30474",
+          "URI": "/goform/saveParentControlInfo"
+        }
+      ],
+      "/goform/SysToolChangePwd": [],
+      "/goform/SysToolRestoreSet": [],
+      "/goform/SysToolReboot": []
+    },
+    "no_URI": [
+      {
+        "URI": "/goform/SetOnlineDevName",
+        "删除": [
+          {
+            "CVE ID": "CVE-2024-2487",
+            "URI": "/goform/SetOnlineDevName"
+          }
+        ]
+      }
+    ],
+    "no_form": [
+      {
+        "URI": "/goform/WifiBasicSet",
+        "新增": [
+          {
+            "CVE ID": "CVE-2024-2546",
+            "URI": "/goform/WifiExtraSet"
+          },
+          {
+            "CVE ID": "CVE-2022-30475",
+            "URI": "/goform/WifiExtraSet"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/AdvSetLanip",
+        "新增": [
+          {
+            "CVE ID": "CVE-2025-5609",
+            "URI": "/goform/AdvSetLanip"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/WifiExtraSet",
+        "新增": [
+          {
+            "CVE ID": "CVE-2024-2546",
+            "URI": "/goform/WifiExtraSet"
+          },
+          {
+            "CVE ID": "CVE-2022-30475",
+            "URI": "/goform/WifiExtraSet"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SetDMZCfg",
+        "新增": [
+          {
+            "CVE ID": "CVE-2025-5606",
+            "URI": "/goform/SetIPTVCfg"
+          }
+        ]
+      }
+    ],
+    "no_button_navigation": []
+  }
+}
+2025-07-06 01:16:15,352 - INFO - \u2705 Saved baseline results to Tenda\FH\FH1203\result\FH1203.json
+2025-07-06 01:16:15,357 - INFO - \u2705 Saved no_URI results to Tenda\FH\FH1203\result\FH1203_no_URI.json
+2025-07-06 01:16:15,363 - INFO - \u2705 Saved no_form results to Tenda\FH\FH1203\result\FH1203_no_form.json
+2025-07-06 01:16:15,369 - INFO - \u2705 Saved no_button_navigation results to Tenda\FH\FH1203\result\FH1203_no_button_navigation.json

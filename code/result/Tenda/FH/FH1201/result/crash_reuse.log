@@ -1,0 +1,162 @@
+2025-07-05 17:27:39,615 - INFO - \u2705 Merged database saved to C:\Users\25281\Downloads\IoTBec\code\result\database.json
+2025-07-05 17:27:39,651 - INFO - {
+  "summary": {
+    "baseline": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 8,
+      "total_hits": 14
+    },
+    "no_URI": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 8,
+      "total_hits": 14
+    },
+    "no_form": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 8,
+      "total_hits": 14
+    },
+    "no_button_navigation": {
+      "unique_cve_count": 8,
+      "total_db_cve_count": 39,
+      "reused_proportion": 20.51282051282051,
+      "matched_targets": 8,
+      "total_hits": 12
+    }
+  },
+  "detailed_matches": {
+    "baseline": {
+      "/goform/AdvSetLanip": [],
+      "/goform/AdvSetWan": [],
+      "/goform/WanPortParam": [],
+      "/goform/AdvSetMacClone": [],
+      "/goform/DhcpSetSer": [],
+      "/goform/DhcpListClient": [
+        {
+          "CVE ID": "CVE-2023-37717",
+          "URI": "/goform/DhcpListClient"
+        }
+      ],
+      "/goform/GstDhcpSetSer": [],
+      "/goform/AdvSetWrlbasic": [],
+      "/goform/AdvSetWrlGstset": [],
+      "/goform/AdvSetWrlsafeset": [
+        {
+          "CVE ID": "CVE-2023-38939",
+          "URI": "/goform/AdvSetWrlsafeset"
+        }
+      ],
+      "/goform/AdvSetWrl": [],
+      "/goform/AdvSetWrlmacfilter": [],
+      "/goform/WrlExtraSet": [],
+      "/goform/wrlwpsset": [],
+      "/goform/qossetting": [
+        {
+          "CVE ID": "CVE-2023-37723",
+          "URI": "/goform/qossetting"
+        }
+      ],
+      "/goform/SysToolDDNS": [],
+      "/goform/VirtualSer": [
+        {
+          "CVE ID": "CVE-2025-5978",
+          "URI": "/goform/VirtualSer"
+        }
+      ],
+      "/goform/VirSerDMZ": [],
+      "/goform/VirSerUpnp": [],
+      "/goform/SetIptv": [],
+      "/goform/RouteStatic": [
+        {
+          "CVE ID": "CVE-2023-37714",
+          "URI": "/goform/RouteStatic"
+        }
+      ],
+      "/goform/SafeMacFilter": [
+        {
+          "CVE ID": "CVE-2023-37721",
+          "URI": "/goform/SafeMacFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37718",
+          "URI": "/goform/SafeClientFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37722",
+          "URI": "/goform/SafeUrlFilter"
+        }
+      ],
+      "/goform/SafeClientFilter": [
+        {
+          "CVE ID": "CVE-2023-37721",
+          "URI": "/goform/SafeMacFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37718",
+          "URI": "/goform/SafeClientFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37722",
+          "URI": "/goform/SafeUrlFilter"
+        }
+      ],
+      "/goform/SafeUrlFilter": [
+        {
+          "CVE ID": "CVE-2023-37721",
+          "URI": "/goform/SafeMacFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37718",
+          "URI": "/goform/SafeClientFilter"
+        },
+        {
+          "CVE ID": "CVE-2023-37722",
+          "URI": "/goform/SafeUrlFilter"
+        }
+      ],
+      "/goform/SafeWanWebMan": [],
+      "/goform/LanDdosAttack": [],
+      "/goform/FireallSpi": [],
+      "/goform/AdvSetFlue": [],
+      "/goform/SysToolTime": [],
+      "/goform/SysToolChangePwd": [],
+      "/cgi-bin/DownloadCfg/RouterCfm.cfg": [],
+      "/cgi-bin/UploadCfg": [],
+      "/cgi-bin/upgrade": [],
+      "/goform/SysToolRestoreSet": [],
+      "/goform/SysToolReboot": []
+    },
+    "no_URI": [],
+    "no_form": [],
+    "no_button_navigation": [
+      {
+        "URI": "/goform/SafeMacFilter",
+        "É¾³ý": [
+          {
+            "CVE ID": "CVE-2023-37718",
+            "URI": "/goform/SafeClientFilter"
+          }
+        ]
+      },
+      {
+        "URI": "/goform/SafeClientFilter",
+        "É¾³ý": [
+          {
+            "CVE ID": "CVE-2023-37721",
+            "URI": "/goform/SafeMacFilter"
+          }
+        ]
+      }
+    ]
+  }
+}
+2025-07-05 17:27:39,665 - INFO - \u2705 Saved baseline results to Tenda\FH\FH1201\result\FH1201.json
+2025-07-05 17:27:39,678 - INFO - \u2705 Saved no_URI results to Tenda\FH\FH1201\result\FH1201_no_URI.json
+2025-07-05 17:27:39,691 - INFO - \u2705 Saved no_form results to Tenda\FH\FH1201\result\FH1201_no_form.json
+2025-07-05 17:27:39,702 - INFO - \u2705 Saved no_button_navigation results to Tenda\FH\FH1201\result\FH1201_no_button_navigation.json

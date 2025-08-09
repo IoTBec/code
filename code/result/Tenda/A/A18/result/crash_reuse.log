@@ -1,0 +1,93 @@
+2025-07-12 16:41:56,149 - INFO - \u2705 Merged database saved to C:\Users\25281\Downloads\IoTBec\code\result\database.json
+2025-07-12 16:41:56,169 - INFO - {
+  "summary": {
+    "baseline": {
+      "unique_cve_count": 3,
+      "total_db_cve_count": 39,
+      "reused_proportion": 7.6923076923076925,
+      "matched_targets": 2,
+      "total_hits": 3
+    },
+    "no_URI": {
+      "unique_cve_count": 1,
+      "total_db_cve_count": 39,
+      "reused_proportion": 2.564102564102564,
+      "matched_targets": 1,
+      "total_hits": 1
+    },
+    "no_form": {
+      "unique_cve_count": 1,
+      "total_db_cve_count": 39,
+      "reused_proportion": 2.564102564102564,
+      "matched_targets": 1,
+      "total_hits": 1
+    },
+    "no_button_navigation": {
+      "unique_cve_count": 3,
+      "total_db_cve_count": 39,
+      "reused_proportion": 7.6923076923076925,
+      "matched_targets": 2,
+      "total_hits": 3
+    }
+  },
+  "detailed_matches": {
+    "baseline": {
+      "/goform/WifiBasicSet": [
+        {
+          "CVE ID": "CVE-2023-24166",
+          "URI": "/goform/WifiBasicSet"
+        }
+      ],
+      "/goform/WifiExtraSet": [
+        {
+          "CVE ID": "CVE-2024-2546",
+          "URI": "/goform/WifiExtraSet"
+        },
+        {
+          "CVE ID": "CVE-2022-30475",
+          "URI": "/goform/WifiExtraSet"
+        }
+      ],
+      "/goform/setApModeCfg": [],
+      "/goform/SysToolChangePwd": [],
+      "/goform/SysToolReboot": [],
+      "/goform/SysToolRestoreSet": [],
+      "/cgi-bin/DownloadLog/syslog.tar": []
+    },
+    "no_URI": [
+      {
+        "URI": "/goform/WifiExtraSet",
+        "É¾³ý": [
+          {
+            "CVE ID": "CVE-2022-30475",
+            "URI": "/goform/WifiExtraSet"
+          },
+          {
+            "CVE ID": "CVE-2024-2546",
+            "URI": "/goform/WifiExtraSet"
+          }
+        ]
+      }
+    ],
+    "no_form": [
+      {
+        "URI": "/goform/WifiExtraSet",
+        "É¾³ý": [
+          {
+            "CVE ID": "CVE-2022-30475",
+            "URI": "/goform/WifiExtraSet"
+          },
+          {
+            "CVE ID": "CVE-2024-2546",
+            "URI": "/goform/WifiExtraSet"
+          }
+        ]
+      }
+    ],
+    "no_button_navigation": []
+  }
+}
+2025-07-12 16:41:56,174 - INFO - \u2705 Saved baseline results to Tenda\A\A18\result\A18.json
+2025-07-12 16:41:56,177 - INFO - \u2705 Saved no_URI results to Tenda\A\A18\result\A18_no_URI.json
+2025-07-12 16:41:56,181 - INFO - \u2705 Saved no_form results to Tenda\A\A18\result\A18_no_form.json
+2025-07-12 16:41:56,186 - INFO - \u2705 Saved no_button_navigation results to Tenda\A\A18\result\A18_no_button_navigation.json
