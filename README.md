@@ -6,14 +6,14 @@
 
 [Code](#Code)
 
-- [Ground Truth Database](#Ground Truth Database)
-- [Test product](#Test product)
+- [Ground Truth Database](##Ground Truth Database)
+- [Test product](##Test product)
 
 [Signature](#Signature)
 
-- [Vulnerability Signature](#Vulnerability Signature)
-- [Interface Signature](#Interface Signature)
-- [Vulnerability Interface Signature](#Vulnerability Interface Signature)
+- [Vulnerability Signature](##Vulnerability Signature)
+- [Interface Signature](##Interface Signature)
+- [Vulnerability Interface Signature](##Vulnerability Interface Signature)
 
 [Match](#Match)
 
