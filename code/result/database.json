@@ -1,0 +1,72 @@
+[
+  {
+    "CVE ID": "CVE-2025-5630",
+    "vendor": "D-Link",
+    "product": "DIR-816",
+    "URI": "/goform/form2lansetup",
+    "form_parameter": "ip=192.168.0.1&mask=255.255.255.0&submit.htm%3Flan.htm=Send&tokenid=1681692777",
+    "form_format": "key-value",
+    "button": "Apply",
+    "navigation": "Settings->LAN Settings->LAN",
+    "vul_type": "Overflow",
+    "function name": "",
+    "parameter or argument": "ip",
+    "POC": ""
+  },
+  {
+    "CVE ID": "CVE-2022-29322",
+    "vendor": "D-Link",
+    "product": "DIR-816",
+    "URI": "/goform/form2Dhcpip",
+    "form_parameter": "lan_dhcpRangeStart=192.168.0.100&lan_dhcpRangeEnd=192.168.0.200&lan_assignment=&nvmacaddr=&ipaddr=0.0.0.0&macaddr=000000000000&update=%E6%9B%B4%E6%96%B0&submit.htm%3Flan.htm=Send&tokenid=1681692777",
+    "form_format": "key-value",
+    "button": "Add",
+    "navigation": "Settings->LAN Settings->DHCP Address",
+    "vul_type": "Overflow",
+    "function name": "",
+    "parameter or argument": "IPADDR, nvmacaddr",
+    "POC": ""
+  },
+  {
+    "CVE ID": "CVE-2022-37134",
+    "vendor": "D-Link",
+    "product": "DIR-816",
+    "URI": "/goform/form2Wan",
+    "form_parameter": "wanPPPoeConnection=0&localTimeAbs=&wanconn_type=1&wantype=1&staip_ipaddr=192.168.160.111&staip_netmask=255.255.255.0&staip_gateway=192.168.160.254&staip_mtusize=1500&dhcpplus_username=&dhcpplus_password=&dhcpc_hostname=&dhcpc_mtusize=1500&pppoe_usrname=&pppoe_psword=&pppoe_sername=&pppoe_acname=&pppoe_idletime=60&pppoe_mtusize=1492&pppoe_staticip=&pppoe_contype=1&dns_ctrl=0&wanspeed=0&mac_clone=0&mac_clone_value=54%3AB8%3A0A%3AF2%3AC1%3A66&mac_manual_value=54%3AB8%3A0A%3AF2%3AC1%3A66&mac_default_value=54%3AB8%3A0A%3AF2%3AC1%3A66&mac_client_value=e4%3A0d%3A36%3Af3%3Af9%3A5d&mac_clone_display=1&save=%E5%BA%94%E7%94%A8&tokenid=1714636915",
+    "form_format": "key-value",
+    "button": "Apply",
+    "navigation": "Settings->Internet Settings",
+    "vul_type": "Overflow",
+    "function name": "",
+    "parameter or argument": "l2tp_usrname",
+    "POC": ""
+  },
+  {
+    "CVE ID": "CVE-2022-37123",
+    "vendor": "D-Link",
+    "product": "DIR-816",
+    "URI": "/goform/form2userconfig",
+    "form_parameter": "username=QWRtaW4%3D&oldpass=&newpass=YWRtaW5h&confpass=YWRtaW5h&modify=%E4%BF%AE%E6%94%B9&select=s0&hiddenpass=&submit.htm%3Fuserconfig.htm=Send&tokenid=719885386",
+    "form_format": "key-value",
+    "button": "Apply",
+    "navigation": "Maintenance->Account Config",
+    "vul_type": "Injection",
+    "function name": "",
+    "parameter or argument": "",
+    "POC": ""
+  },
+  {
+    "CVE ID": "CVE-2021-39509",
+    "vendor": "D-Link",
+    "product": "DIR-816",
+    "URI": "/goform/form2userconfig",
+    "form_parameter": "username=QWRtaW4%3D&oldpass=&newpass=YWRtaW5h&confpass=YWRtaW5h&modify=%E4%BF%AE%E6%94%B9&select=s0&hiddenpass=&submit.htm%3Fuserconfig.htm=Send&tokenid=719885386",
+    "form_format": "key-value",
+    "button": "Apply",
+    "navigation": "Maintenance->Account Config",
+    "vul_type": "Injection",
+    "function name": "handler function",
+    "parameter or argument": "HTTP request parameter",
+    "POC": ""
+  }
+]
